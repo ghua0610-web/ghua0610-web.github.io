@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="384" height="384" viewBox="0 0 384 384">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#254c6a"/><stop offset="1" stop-color="#487da1"/></linearGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0v32" fill="none" stroke="#fff" stroke-opacity=".035"/></pattern></defs>
+  <rect width="384" height="384" rx="26" fill="url(#bg)"/><rect width="384" height="384" fill="url(#grid)"/>
+  <g stroke="#a7cfe7" stroke-opacity=".2" fill="none" stroke-width="1"><path d="M0 279 66 222 125 282 198 248 279 293 384 225M66 222 58 120 141 74 224 116 300 66 384 110M279 293 300 190 224 116M141 74 125 282M198 248 300 190 384 225M58 120 0 86"/><circle cx="198" cy="192" r="131" stroke-opacity=".08"/><circle cx="198" cy="192" r="155" stroke-opacity=".06"/></g>
+  <g fill="#a9cbe2" opacity=".5"><circle cx="66" cy="222" r="3"/><circle cx="58" cy="120" r="3"/><circle cx="141" cy="74" r="3"/><circle cx="224" cy="116" r="3"/><circle cx="300" cy="66" r="3"/><circle cx="300" cy="190" r="3"/><circle cx="279" cy="293" r="3"/><circle cx="198" cy="248" r="3"/><circle cx="125" cy="282" r="3"/></g>
+  <text x="192" y="220" text-anchor="middle" fill="#fff" font-family="Georgia,serif" font-size="108" letter-spacing="-4">GZ</text><path d="M163 248h58" stroke="#b7d4e8" stroke-width="2"/><text x="192" y="280" text-anchor="middle" fill="#d5e5ef" font-family="Arial,sans-serif" font-size="8" letter-spacing="3.5">GUANGHUA ZHENG</text>
+</svg>

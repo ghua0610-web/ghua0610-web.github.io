@@ -14,7 +14,7 @@ python3 -m http.server 8000
 
 ## 发布到 GitHub Pages
 
-目标地址：**https://ghua0610-web.github.io/**（部署成功后生效）。
+网站地址：[https://ghua0610-web.github.io/](https://ghua0610-web.github.io/)。
 
 1. 登录 GitHub 账号 `ghua0610-web`，创建公开仓库 `ghua0610-web.github.io`。
 2. 将本目录中的文件和 `assets` 文件夹上传至仓库根目录（包括 `.nojekyll`）。

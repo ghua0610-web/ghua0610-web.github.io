@@ -1,7 +1,5 @@
 # Guanghua Zheng · Academic Homepage
 
-纯静态英文个人学术主页，无需安装依赖或构建。参考了 https://y-debug-sys.github.io/ 的白底、蓝色强调、学术简介与论文卡片布局。
-
 ## 查看
 
 直接用浏览器打开 `index.html`，或在此目录运行：
@@ -25,7 +23,7 @@ python3 -m http.server 8000
 
 ## 内容维护
 
-- `index.html`：姓名、个人简介、教育经历、邮箱、论文与 BibTeX。更换邮箱时，同时更新 `script.js` 中复制按钮使用的邮箱。
+- `index.html`：姓名、个人简介、教育经历、邮箱、论文与 BibTeX。更换邮箱时，同时更新邮箱链接和复制按钮的 `data-copy-email` 属性。
 - `styles.css`：配色、字体、布局和移动端样式。
 - `script.js`：移动导航、当前章节高亮、邮箱复制、BibTeX 弹窗与复制。
 - `assets/profile.svg`：原创 GZ 字母头像。可用本人照片替换，并相应修改 HTML 中图片路径和替代文本。

@@ -52,7 +52,9 @@ async function copyText(value, successMessage) {
   }
 }
 
-document.querySelector("[data-copy-email]").addEventListener("click", () => copyText("ghua0610@gmail.com", "Email address copied"));
+document.querySelectorAll("[data-copy-email]").forEach(button => {
+  button.addEventListener("click", () => copyText(button.dataset.copyEmail, "Email address copied"));
+});
 document.querySelector("[data-open-citation]").addEventListener("click", () => citation.showModal());
 document.querySelector("[data-close-citation]").addEventListener("click", () => citation.close());
 document.querySelector("[data-copy-citation]").addEventListener("click", () => copyText(document.querySelector("#bibtex").textContent.trim(), "BibTeX copied"));
